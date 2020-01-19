@@ -1,0 +1,43 @@
+<ion-content id="page-login">
+
+  <ion-grid id="login-grid">
+    <ion-row id="login-row-0" ion-align-items-start justify-content-center>
+    </ion-row>
+
+    <ion-row id="login-row-1" ion-align-items-center justify-content-center>
+      <div>
+        <ion-icon id="login-icon" src="assets/rubiks-cube.svg"></ion-icon>
+      </div>
+    </ion-row>
+    <ion-row id="login-row-2" ion-align-items-end justify-content-center>
+      <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+
+        <div id="login-input">
+          <ion-item id="login-item" mode="md">
+            <ion-input type="text" placeholder="E-mail"></ion-input>
+          </ion-item>
+        </div>
+
+        <div id="login-input">
+          <ion-item id="login-item" mode="md">
+            <ion-input type="password" placeholder="Password"></ion-input>
+          </ion-item>
+        </div>
+
+        <div id="login-link">
+          <a href="/">Forgot Password</a>
+        </div>
+  
+        <div id="button-login-1">
+          <ion-button mode="md" size="medium" expand="block" shape="round">login</ion-button>
+        </div>
+        <div id="button-login-2">
+          <ion-button mode="md" size="medium" (click)="openReg()" expand="block" shape="round">Register</ion-button>
+        </div>
+
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

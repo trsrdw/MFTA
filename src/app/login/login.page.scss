@@ -1,0 +1,127 @@
+#page-login {
+    --background: var(--ion-color-dark);
+    position: fixed;
+}
+
+#login-grid {
+    height: 100%
+}
+
+#login-row-0 {
+    height: 10%;
+}
+
+#login-row-1 {
+    height: 10%;
+}
+
+#login-row-2 {
+    height: 80%;
+}
+
+#login-icon {
+    height: 170px;
+    width: 100px;
+    fill: white;
+    margin: auto;
+}
+
+#login-input {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#login-item {
+    //border-radius: 50px;
+    border:none;
+    border-bottom: 1px solid var(--ion-color-light);
+    --background: var(--ion-color-dark);
+    color: white;
+    //@function: inset 0px 30px 50px 0px #111114;
+    
+    ion-item {
+        --inner-padding-start: 0;
+        --focus-outline-border-color : none;
+    }
+
+    ion-input {
+        --placeholder-color: white;
+        --padding:0;
+        
+    }
+    
+}
+
+#login-link {
+    text-align: right;
+    font-size: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    a {
+        text-decoration: none;
+        color: var(--ion-color-secondary);
+    }
+}
+
+#button-login-1 {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+#button-login-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#button-connect {
+    text-align: center;
+    ion-button {
+        width: 82px;
+        height: 50px;
+        --border-radius: 50px;
+    }
+}
+
+#login-icon {
+    height: 170px;
+    width: 100px;
+    fill: white;
+    margin: auto;
+}
+
+#separator {
+    padding-bottom: 8px;
+}
+
+#linetxt {
+    position:relative;
+    text-align:center;
+    margin-right:24px;
+    margin-left:24px;
+    
+}
+    
+#linetxt span {
+    position: relative;
+    padding:0 10px;
+    font-size: 12px;
+    color: white;
+    background: var(--ion-color-dark);
+    z-index: 5;
+}
+
+#linetxt:before {
+    content:"";
+    display:block;
+    border-top: solid 0.5px white;
+    position:absolute;
+    z-index:1;
+    top:60%;
+    width: 100%;
+    height:0.5px;
+    background: white;
+}

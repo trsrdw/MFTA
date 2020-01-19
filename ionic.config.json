@@ -1,5 +1,13 @@
 {
   "name": "prjTA",
-  "integrations": {},
-  "type": "angular"
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/server_api",
+      "proxyUrl": "http://localhost/SKRIPSI/server_api"
+    }
+  ]
 }

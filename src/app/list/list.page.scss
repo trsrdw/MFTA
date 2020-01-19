@@ -1,1 +1,20 @@
+#page-list {
+    --background: var(--ion-color-tertiary);
+    ion-item {
+        --background: var(--ion-color-tertiary);
+        color: white;
+    }
+    ion-list {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
 
+#list-header ion-toolbar {
+    --background: var(--ion-color-dark);
+    color: var(--ion-color-light);
+}
+
+ion-icon {
+    fill: white;
+}
